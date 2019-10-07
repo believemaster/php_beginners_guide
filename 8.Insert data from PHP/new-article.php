@@ -1,8 +1,8 @@
 <?php
 
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+require 'include/database.php';
 
-		require 'include/database.php';
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 		$sql = "INSERT INTO article (title, content, published_at)
 						VALUES (?, ?, ?)"; // placeholder for preventing sql injections
