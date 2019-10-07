@@ -13,8 +13,9 @@ var_dump($a + 5);
 var_dump($b - $a);
 
 var_dump($price*$tax);
-
 echo $first_name." ".$last_name;
+
+echo "<br><br>Multiply String with integer<br>";
 // multiply string by integer we get integer result
 $x = "150";
 $y = 2;
@@ -23,7 +24,7 @@ $z = $x * $y;
 var_dump($z);
 
 // Logical
-
+echo "<br><br>Logical Operations:<br>";
 $is_admin = true;
 $is_coder = false;
 
