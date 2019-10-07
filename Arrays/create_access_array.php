@@ -1,6 +1,7 @@
 <?php
 
-$array = 	["First",
+$array = 	[
+						"First",
 						"Second",
 						"Third",
 						"Fourth"
