@@ -21,7 +21,7 @@ require 'include/database.php'; // include database above but not executing
 		{
 			$errors[] = "Content is Required";
 		}
-		if($published_at 1= '')
+		if($published_at != '')
 		{
 			$date_time = date_create_form_format('Y-m-d H:i:s', $published_at);
 
