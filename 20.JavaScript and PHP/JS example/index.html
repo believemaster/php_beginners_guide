@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>JS Practice</title>
+	</head>
+	<body>
+	<h1>JavaScript</h1>.
+	<!-- <button onclick="alert('Heyy!')">Click Me!</button>  This is inline JS(Non preferable)-->
+
+	<button id="button1">Click Here</button>
+	<button id="button2">Click Here</button>
+
+	<script>
+		// this is called as embeded JS
+		function sayHello(){
+			alert('Hello!');
+		}
+
+		document.getElementById("button1").addEventListener("click", sayHello);
+
+	</script>
+	<!-- CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+					integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  				crossorigin="anonymous"></script>
+	<!-- External -->
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="myscript.js"></script>
+
+	</body>
+</html>
